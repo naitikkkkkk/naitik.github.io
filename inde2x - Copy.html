@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0" >
+        <title>
+            University Website Design
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesom.4.7.0/css/font-awesom.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" >
+    </head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="./index.html"><img src="logo.png" alt="logo"></a>
+    <div class="nav-links" id="navlinks">
+        <p><img src="cross.png " alt="" class="img" onclick="hideMenu()"></p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inde2x - Copy.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <p><img src="menu.png" alt="" class="img" onclick="showMenu()"></p>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, a eligendi necessitatibus asperiores est nostrum iure <br> recusandae repellendus laborum, suscipit itaque ullam iste fuga odit veniam perferendis maxime, eveniet libero.</p>
+
+<serction class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis vitae tenetur facilis corrupti! Vero mollitia nostrum dolore amet quidem maxime consectetur? Provident impedit deleniti culpa ab, minima sint odit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis vitae tenetur facilis corrupti! Vero mollitia nostrum dolore amet quidem maxime consectetur? Provident impedit deleniti culpa ab, minima sint odit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis vitae tenetur facilis corrupti! Vero mollitia nostrum dolore amet quidem maxime consectetur? Provident impedit deleniti culpa ab, minima sint odit!
+            </p>
+            <a href="" class=" hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+            <img src="about.jpg" alt="">
+        </div>
+    </div>
+</serction>
+    <div class="icons">
+        <img src="facebook2.png" alt="" class="naitik">
+        <img src="twitter.png" alt="" class="naitik">
+        <img src="instagram.png" alt="" class="naitik">
+        <img src="youtube.png" alt="" class="naitik">
+
+        <p>Made By Naitik Khandelwal</p>
+    </div>
+</section>
+
+
+<script>
+    var navlinks= document.getElementById("navlinks");
+    
+    function showMenu(){
+        navlinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+ </body>
+</html>
